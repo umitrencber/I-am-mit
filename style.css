@@ -1,0 +1,13 @@
+body{
+    background-color: #f3f3f3;
+}
+
+.ul{
+    font-size: 18px;
+    font-family: monospace;
+}
+.hello{
+    font-size: 100px;
+    font-family: 'Permanent Marker', cursive;
+    margin-left: -5px;
+}
