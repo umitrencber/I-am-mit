@@ -13,13 +13,19 @@ body{
 }
 .circle{
     background-color: #eea302;
+    width: 100px;
+    height: 100px;
    
 }
 .circle2{
     background-color: #ff3b25;
+    width: 100px;
+    height: 100px;
 }
 .circle3{
     background-color: #80d8da;
+    width: 100px;
+    height: 100px;
 }
 
 .circle:hover,.circle2:hover,.circle3:hover {
@@ -28,9 +34,10 @@ body{
     background-color: #f3f3f3;
     
 }
-#circle2:hover {
-    cursor: pointer;
+.margin{
+    margin-top: 120px;
 }
-#circle3:hover{
-    cursor: pointer;
+.forCircles{
+    width: 100px;
+    height: 100px;
 }
