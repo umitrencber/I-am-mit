@@ -8,6 +8,29 @@ body{
 }
 .hello{
     font-size: 100px;
-    font-family: 'Permanent Marker', cursive;
+    font-family: monospace;
     margin-left: -5px;
+}
+.circle{
+    background-color: #eea302;
+   
+}
+.circle2{
+    background-color: #ff3b25;
+}
+.circle3{
+    background-color: #80d8da;
+}
+
+.circle:hover,.circle2:hover,.circle3:hover {
+    transition: 0.5s;
+    cursor: pointer;
+    background-color: #f3f3f3;
+    
+}
+#circle2:hover {
+    cursor: pointer;
+}
+#circle3:hover{
+    cursor: pointer;
 }
