@@ -28,16 +28,29 @@ body{
     height: 100px;
 }
 
-.circle:hover,.circle2:hover,.circle3:hover {
+.circle:hover,.circle2:hover,.circle3:hover,.submit:hover {
     transition: 0.5s;
     cursor: pointer;
     background-color: #f3f3f3;
     
 }
+/*  proje arası mesafe için */
 .margin{
     margin-top: 120px;
 }
-.forCircles{
-    width: 100px;
-    height: 100px;
+
+.submit{
+   height: 120px;
+   width: 150px;
+    
+    background-color: orange;
 }
+.inputs{
+   border: 1px solid black;
+
+}
+.inputs:hover{
+    border: 2.2px solid black;
+}
+
+
